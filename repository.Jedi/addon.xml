@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Jedi" name="Jedi Repository" version="1.0.1" provider-name="Wardoctor">
+	<extension point="xbmc.addon.repository" name="Jedi Repository">
+		<info compressed="false">https://raw.githubusercontent.com/TheWardoctor/Jedi/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/TheWardoctor/Jedi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/TheWardoctor/Jedi/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Jedi Repository</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
