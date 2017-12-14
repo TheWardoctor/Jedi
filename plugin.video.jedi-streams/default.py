@@ -66,11 +66,10 @@ def peamenyy(params):
     channels = kontroll()
     if channels == 1 and jedi.mode != 5 and jedi.mode != 1:
         plugintools.log(pnimi+vod_channels("TG9naW4gU3VjY2VzcyAtIFdhcmRvY3RvciBXaW5zIQ=="))
-        plugintools.addItem('[B]Jedi Guide[/B]','guide',8,jedi.Images + 'tardis.png',jedi.Images + 'background.png')
+        plugintools.addItem('[B]Jedi Guide[/B]','guide',8,jedi.Images + 'jedi.png',jedi.Images + 'background.png')
         plugintools.add_item( action=vod_channels("ZXhlY3V0ZV9haW5mbw=="),   title="[B]Account Information[/B]", thumbnail=os.path.join(LOAD_LIVE,vod_channels("bXlhY2MucG5n")), fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) ,  folder=True )
         plugintools.add_item( action=vod_channels("c2VjdXJpdHlfY2hlY2s="),  title="[B]Live TV[/B]" , thumbnail=os.path.join(LOAD_LIVE,vod_channels("bGl2ZXR2LnBuZw==")) , fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) ,  folder=True )
         plugintools.add_item( action=vod_channels("ZGV0ZWN0X21vZGlmaWNhdGlvbg=="),   title=vod_channels("W0JdVmlkZW8gT24gRGVtYW5kWy9CXQ==") , thumbnail=os.path.join(LOAD_LIVE,vod_channels("dm9kLnBuZw==")), fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) ,  folder=True )
-        plugintools.addItem('[B]Tardis Fixtures[/B]','fixtures',13,jedi.Images + 'fixtures.png',jedi.Images + 'background.png')
         plugintools.add_item( action=vod_channels("bGljZW5zZV9jaGVjaw=="), title="[B]Settings[/B]" , thumbnail=os.path.join(LOAD_LIVE,vod_channels("c2V0dGluZ3MucG5n")), fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) ,  folder=False )
         if not xbmc.getCondVisibility('System.HasAddon(pvr.iptvsimple)'):
             plugintools.addItem('[B]Setup PVR Client with Jedi Streams[/B]','pvr',10,jedi.Images + 'pvr.png',jedi.Images + 'background.png')

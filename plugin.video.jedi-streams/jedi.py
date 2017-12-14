@@ -85,9 +85,6 @@ def speed():
 def guide():
 	xbmc.executebuiltin('Runscript("special://home/addons/script.jedi.guide/addon.py")')
 
-def fixtures():
-	xbmc.executebuiltin('ActivateWindow(10001,plugin://plugin.program.tardis-fixtures,return)')
-
 def Clear_Cache():
     choice = xbmcgui.Dialog().yesno('Clear your Cache?', 'This will Refresh your Live Events', 'It can help with Buffering issues also','If you have any issues, Make sure you are in our facebook group - Were here to help.', nolabel='Cancel',yeslabel='Delete')
     if choice == 1:
@@ -539,8 +536,6 @@ elif mode == 1:
 	Buildlist(url)
 elif mode == 3:
     PlayUrl(name, url, iconimage)
-elif mode == 13:
-	fixtures()
 elif mode == 8:
 	guide()
 elif mode == 9:
