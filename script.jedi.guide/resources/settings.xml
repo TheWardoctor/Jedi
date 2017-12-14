@@ -28,7 +28,7 @@
         <setting id="addons.ini.enabled" label="Import addons.ini" type="bool" default="true" />
         <setting id="addons.ini.type" label="addons.ini Source" type="enum" visible="false" default="1" values="File|Url"/>
         <setting id="addons.ini.file" label="addons.ini File" type="file" visible="eq(-2,true) + eq(-1,0)" mask="addons.ini" default=''/>
-        <setting id="addons.ini.url" label="addons.ini Url" type="text" visible="false" default="http://163.172.46.122/files/masterbeta/live/addons.ini"/>
+        <setting id="addons.ini.url" label="addons.ini Url" type="text" visible="false" default="http://163.172.46.122/files/guide/jedi/addons.ini"/>
         <setting id="addons.ini.overwrite" label="Overwrite or Merge Local addons.ini" type="enum" visible="false" default='0' values="Overwrite|Merge"/>
         <setting id="addons.ini.key" label="addons.ini key" type="text" visible="false" default=''/>
         <setting id="addons.ini.encode" label="Encode (addons.aes.ini)" type="bool" visible="false"  default="false" />
@@ -40,7 +40,7 @@
         <setting id="categories.ini.enabled" label="Import categories.ini" type="bool" default="true" />
         <setting id="categories.ini.type" label="categories.ini Source" type="enum" visible="false" default="1" values="File|Url"/>
         <setting id="categories.ini.file" label="categories.ini File" type="file" visible="eq(-2,true) + eq(-1,0)" mask="categories.ini" default=''/>
-        <setting id="categories.ini.url" label="categories.ini Url" type="text" visible="false" default="http://163.172.46.122/files/masterbeta/live/categories.ini"/>
+        <setting id="categories.ini.url" label="categories.ini Url" type="text" visible="false" default="http://163.172.46.122/files/guide/jedi/categories.ini"/>
         <setting id="categories.remember" label="Remember Last Category" type="bool" visible="true" default="true" />
         <setting id="cat.order" label="Custom Category Order (use | to seperate)" type="text" default="All Channels|Entertainment|Movies|Sports|Game Time|International Sports|News|Documentary &amp; Lifestyle|Kids|Music &amp; Radio|Shopping|Box Office" />
         <setting id="mapping.ini.enabled" label="Import mapping.ini" type="bool" default="false"  visible="false" />
